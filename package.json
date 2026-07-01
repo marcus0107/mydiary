@@ -4,7 +4,7 @@
   "description": "A personal diary desktop app with backend, auth, and AI",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "node server/index.js"
     "build": "electron-builder"
   },
   "build": {
